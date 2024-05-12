@@ -29,6 +29,14 @@ class _SignPageState extends State<SignPage> {
   late String signName = widget.signName;
   List<dynamic> data = [];
 
+  bool _obscureText = true;
+
+  void _toggleObscureText() {
+    setState(() {
+      _obscureText = !_obscureText;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -78,22 +86,18 @@ class _SignPageState extends State<SignPage> {
                   width: width90,
                   height: height10,
                   child: TextField(
-                    obscureText: true,
+                    obscureText: _obscureText,
                     decoration: InputDecoration(
                       border: const OutlineInputBorder(),
                       labelText: "비밀번호를 입력해주세요",
                       hintText: '비밀번호 입력',
                       helperText: "특수문자 포함하세요",
                       // 비밀번호 암호 true, false 다시 해보기!
-                      suffixIcon: GestureDetector(
-                        child: const Icon(
-                          Icons.back_hand_outlined,
-                          color: Colors.blueAccent,
-                          size: 20,
+                      suffixIcon: IconButton(
+                        icon: Icon(
+                          _obscureText ? Icons.visibility : Icons.visibility_off,
                         ),
-                        onTap: () {
-                          setState(() {});
-                        },
+                        onPressed: _toggleObscureText,
                       ),
                     ),
                     onChanged: (value) {
@@ -201,6 +205,7 @@ class _SignPageState extends State<SignPage> {
           break;
         } else {
           print("성공");
+          signSuccess(context);
           await postData();
           break;
         }

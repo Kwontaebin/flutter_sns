@@ -69,3 +69,17 @@ void sameName(BuildContext context) {
 
   ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }
+
+void signSuccess(BuildContext context) {
+  final snackBar = SnackBar(
+    content: const Text('회원가입 성공!'),
+    action: SnackBarAction(
+      label: '확인',
+      onPressed: () {
+        // Some code to undo the change.
+      },
+    ),
+  );
+
+  ScaffoldMessenger.of(context).showSnackBar(snackBar);
+}

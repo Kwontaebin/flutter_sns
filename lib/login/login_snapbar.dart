@@ -41,3 +41,17 @@ void pwErrSnapBar(BuildContext context) {
 
   ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }
+
+void loginSuccess(BuildContext context) {
+  final snackBar = SnackBar(
+    content: const Text('로그인 성공!'),
+    action: SnackBarAction(
+      label: '확인',
+      onPressed: () {
+        // Some code to undo the change.
+      },
+    ),
+  );
+
+  ScaffoldMessenger.of(context).showSnackBar(snackBar);
+}

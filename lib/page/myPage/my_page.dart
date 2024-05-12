@@ -39,6 +39,7 @@ class _MyPageState extends State<MyPage> {
             icon: const Icon(Icons.logout),
             onPressed: () {
               logout();
+              logoutSuccess(context);
               Navigator.pushNamed(context, '/');
               print('로그아웃');
             },
@@ -68,5 +69,19 @@ class _MyPageState extends State<MyPage> {
         ),
       ),
     );
+  }
+
+  void logoutSuccess(BuildContext context) {
+    final snackBar = SnackBar(
+      content: const Text('로그아웃'),
+      action: SnackBarAction(
+        label: '확인',
+        onPressed: () {
+          // Some code to undo the change.
+        },
+      ),
+    );
+
+    ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 }

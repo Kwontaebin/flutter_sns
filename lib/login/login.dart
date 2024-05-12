@@ -169,11 +169,11 @@ class _LoginPageState extends State<LoginPage> {
     if (status == "idErr") idErrSnapBar(context);
     if (status == "pwErr") pwErrSnapBar(context);
     if (status == "success") {
+      loginSuccess(context);
       print("로그인 성공");
       final SharedPreferences pref = await SharedPreferences.getInstance();
       pref.setInt('id', id);
       pref.setString('name', name);
-      // likeImg();
 
       Navigator.pushNamed(context, "/home");
     }
