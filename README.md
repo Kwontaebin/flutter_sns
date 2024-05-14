@@ -2,7 +2,7 @@
 
 프로젝트 소개
 - 소셜 미디어 프로젝트로 자신의 일상을 공유하고 온라인 상의 친구를 만들수 있는 SNS입니다.
-- 다양한 유저들을 팔로우하며 마음에 드는 게시글에 좋아요를 누르거나 댓글을 작성할 수 있습니다.
+- 유저들을 팔로우하며 마음에 드는 게시글에 좋아요를 누르거나 댓글을 작성할 수 있습니다.
 - 검색을 통해 자신이 찾고 있는 게시글을 찾을수 있습니다.
 
 ## 1. 개발 환경
@@ -58,7 +58,7 @@
  ## 3. 개발 기간
  - 2024.04.15 ~ 2024.05.10
 
- ## 3. 주요 기능
+ ## 3. 페이지별 기능
  ### 회원가입
  - 유효성 검사를 실시해서 중복되는 이메일이나 이름이 있을경우 하단에 경고창(스넥 바)를 띄웁니다.
 <div style="height: 200px; width: 500px;">
@@ -101,4 +101,20 @@
 - 일치하는 회원의 정보가 있다면 로그인에 성공하고 메인 페이지로 이동합니다.
 - 로그인 성공시 shared_preferences 라이브러리를 사용해서 DB의 컬럼(Id, Name)을 저장합니다.
 <img style="height: 600px; width: 250px; float:left;" src="/images/login_img3.png">
+<br/>
+
+## 메인 페이지
+- 전체 사용자가 올린 게시글을 확인할수있습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/main_img1.png">
+<br/>
+
+- 댓글을 작성할수 있습니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img2.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img3.png">
+</div>
+<br/>
+
+- 아무것도 입력하지 않고 댓글을 작성할경우 "댓글을 작성하세요" 경고창이 나옵니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/main_img4.png">
 <br/>
