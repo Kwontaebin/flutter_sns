@@ -125,6 +125,7 @@
     <img style="height: 600px; width: 250px; float:left;" src="/images/main_img7.png">
     <img style="height: 600px; width: 250px; float:left;" src="/images/main_img8.png">
 </div>
+<br/>
 
 - 하트 아이콘을 클릭하면 게시글에 좋아요를 누를수 있습니다.
 - 좋아요를 누른 게시글
@@ -135,3 +136,9 @@
 <img style="height: 600px; width: 250px; float:left;" src="/images/main_img6.png">
 <br/>
 
+- 게시글의 이미지를 클릭하면 해당 게시글을 상세하게 보는 페이지로 이동합니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img9.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img10.png">
+</div>
+<br/>
