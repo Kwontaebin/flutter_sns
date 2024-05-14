@@ -236,3 +236,39 @@
 
 - 게시글 작성이 완료되었을떄 화면입니다.
 <img style="height: 600px; width: 250px; float:left;" src="/images/post_page_img5.png">
+<br/>
+
+## 게시글 찾기, 전체 유저 목록 페이지
+- 해당 아이콘을 클릭해서 들어올수 있습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/search_img6.png">
+<br/>
+
+- 전체 유저를 보여주고 사용자가 팔로우하고 있는 유저 팔로우하고 있지 않은 유저를 확인할수있습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/search_img2.png">
+<br/>
+
+- 유저를 팔로우 할수있습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/search_img3.png">
+<br/>
+
+- 이미 팔로우 중인 유저를 팔로우 취소 할수 있습니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/search_img4.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/search_img5.png">
+</div>
+<br/>
+
+- 게시글을 검색하여 찾고 싶은 게시물을 찾을수있습니다.
+- 이미지를 클릭하면 상세보기 페이지로 이동합니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/search_img7.png">
+<br/>
+
+- 해당 게시물이 없는 경우 "게시글이 없습니다" 라고 보여줍니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/search_img8.png">
+<br/>
+
+
+## 후기
+Flutter 를 배우고 처음으로 만든 프로젝트여서 개인적으로 뿌듯함 마음이 크지만 프로젝트를 완성시킨 지금은 이렇게 했으면 코드를 더 짧게 만들수 있었을텐데 라는 생각이 들어서 
+뿌듯한 마음과 아쉬운 마음이 드는 프로젝트입니다. 항상 웹 프론트엔드를 사용해서 프로젝트를 진행해왔는데 처음으로 앱 프론트엔드를 사용해서 프로젝트를 완성시켜보니까
+정말 작은 세상에 살았다고 생각했습니다. 이 프로젝트는 저를 세상에 한 걸음더 나오게 해준 개인적으로 고마운 프로젝트입니다!
