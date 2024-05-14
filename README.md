@@ -156,14 +156,44 @@
     <img style="height: 600px; width: 250px; float:left;" src="/images/main_img13.png">
     <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img1.png">
 </div>
+<br/>
 
 - 유저의 전체 게시글을 확인할수있습니다.
 - 유저의 게시글수, 팔로우수, 팔로워수 를 확인할수 있습니다.
 <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img4.png">
+<br/>
 
 - 게시글의 이미지를 클릭해서 상세보기 페이지로 들어갈수있습니다.
-- <div style="height: 200px; width: 500px;">
+<div style="height: 200px; width: 500px;">
     <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img2.png">
     <img style="height: 600px; width: 250px; float:left;" src="/images/main_img10.png">
 </div>
 <br/>
+
+- 해당 아이콘을 클릭해서 로그아웃을 할수있습니다.
+- 로그아웃시 shared_preferences로 저장한 로그인 유저의 정보를 삭제하고 로그인 페이지로 이동합니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img3.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img5.png">
+</div>
+<br/>
+
+- 팔로우 하지 않은 유저를 팔로우 할수있습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img8.png">
+
+- "팔로우 취소하시겠습니까" 확인을 누르면 팔로우 취소를 할수있습니다.
+- "팔로우 취소하시겠습니까" 취소를 누르면 아무일도 일어나지 않습니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img6.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img7.png">
+</div>
+<br/>
+
+- 자기 자신을 팔로우 할수 없습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img9.png">
+
+### 상세보기 페이지
+- 게시글을 상세하게 볼수있습니다.
+- 기존에 3개로 제한되던 댓글을 모두 볼수있습니다.
+- 좋아요를 누르거나 댓글을 작성할수있습니다
+<img style="height: 600px; width: 250px; float:left;" src="/images/main_img10.png">
