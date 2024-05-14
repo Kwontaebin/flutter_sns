@@ -142,3 +142,28 @@
     <img style="height: 600px; width: 250px; float:left;" src="/images/main_img10.png">
 </div>
 <br/>
+
+- 게시글의 유저 아이콘을 클릭하면 유저 페이지로 이동할수있습니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img13.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img12.png">
+</div>
+<br/>
+
+## 유저 페이지
+- 해당 아이콘, 버튼을 클릭하면 페이지에 들어갈수있습니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img13.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img1.png">
+</div>
+
+- 유저의 전체 게시글을 확인할수있습니다.
+- 유저의 게시글수, 팔로우수, 팔로워수 를 확인할수 있습니다.
+<img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img4.png">
+
+- 게시글의 이미지를 클릭해서 상세보기 페이지로 들어갈수있습니다.
+- <div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/my_page_img2.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img10.png">
+</div>
+<br/>
