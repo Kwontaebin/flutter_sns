@@ -118,3 +118,20 @@
 - 아무것도 입력하지 않고 댓글을 작성할경우 "댓글을 작성하세요" 경고창이 나옵니다.
 <img style="height: 600px; width: 250px; float:left;" src="/images/main_img4.png">
 <br/>
+
+- 댓글 아이콘을 클릭하면 전체 댓글을 볼수있습니다.
+- 기존에 댓글은 3개만 볼수있습니다.
+<div style="height: 200px; width: 500px;">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img7.png">
+    <img style="height: 600px; width: 250px; float:left;" src="/images/main_img8.png">
+</div>
+
+- 하트 아이콘을 클릭하면 게시글에 좋아요를 누를수 있습니다.
+- 좋아요를 누른 게시글
+<img style="height: 600px; width: 250px; float:left;" src="/images/main_img4.png">
+<br/>
+
+- 좋아요를 누르지 않은 게시글
+<img style="height: 600px; width: 250px; float:left;" src="/images/main_img6.png">
+<br/>
+
