@@ -137,7 +137,7 @@
 
 - 하트 아이콘을 클릭하면 게시글에 좋아요를 누를수 있습니다.
 - 좋아요를 누른 게시글
-<img style="height: 600px; width: 250px; float:left;" src="/images/main_img4.png">
+<img style="height: 600px; width: 250px; float:left;" src="/images/main_img1.png">
 <br/>
 
 - 좋아요를 누르지 않은 게시글
