@@ -234,7 +234,6 @@
 <br/>
 
 - 이미지와 내용중 하나라도 입력하지 않으면 게시글을 작성할수없습니다.
-- 전부다 작성하지 않더라도 게시글을 작성할수없습니다.
 <div style="height: 200px; width: 500px;">
     <img style="height: 600px; width: 250px; float:left;" src="/images/post_page_img3.png">
     <img style="height: 600px; width: 250px; float:left;" src="/images/post_page_img4.png">
