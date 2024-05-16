@@ -14,7 +14,7 @@
 
 ## 1. 개발 환경
 - #### App Front-end : Dart, Flutter
-- #### back-end : Mysql, Node-js
+- #### back-end : MySQL, Node-js
 - #### 디자인 참고 : 인스타그램
 
 ## 2. 프로젝트 구조
