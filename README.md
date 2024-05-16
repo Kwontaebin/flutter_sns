@@ -13,7 +13,7 @@
 - [후기](#5-후기)
 
 ## 1. 개발 환경
-- #### App Front-end : Dart, FLutter
+- #### App Front-end : Dart, Flutter
 - #### back-end : Mysql, Node-js
 - #### 디자인 참고 : 인스타그램
 
