@@ -106,7 +106,7 @@
 <br/>
 
 - 일치하는 회원의 정보가 있다면 로그인에 성공하고 메인 페이지로 이동합니다.
-- 로그인 성공시 shared_preferences 라이브러리를 사용해서 DB의 컬럼(Id, Name)을 저장합니다.
+- 로그인 성공시 shared_preferences 라이브러리를 사용해서 DB의 필드(Id, Name)을 저장합니다.
 <img style="height: 600px; width: 250px; float:left;" src="/images/login_img3.png">
 <br/>
 
